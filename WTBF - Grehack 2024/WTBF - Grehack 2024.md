@@ -2,7 +2,7 @@
 
 This challenge consist of a simple file containing ascii characters, and the objective is to retrieve a password from this file
 
-![image.png](WTBF%20-%20Grehack%202024%201439b204b34d809998d0fd1b8d722646/image.png)
+![file.png](file.png)
 
 The file seems very strange as it only contains the following symbols : “+”, “-”, “>”, “<”, “[”, “]”, “,” and “.”
 
@@ -16,11 +16,11 @@ This program is composed of two part, the first one only initialized some variab
 
 Note : Brainfuck looks a lot like a Turing Machine (it is in fact Turing-complete), with a tape, a pointer, and the possibility to increment and decrement the value contained on the tape
 
-![Capture d’écran du 2024-11-21 08-41-39.png](WTBF%20-%20Grehack%202024%201439b204b34d809998d0fd1b8d722646/Capture_dcran_du_2024-11-21_08-41-39.png)
+![code1.png](code1.png)
 
-![Capture d’écran du 2024-11-21 08-41-48.png](WTBF%20-%20Grehack%202024%201439b204b34d809998d0fd1b8d722646/Capture_dcran_du_2024-11-21_08-41-48.png)
+![code2.png](code2.png)
 
-![Capture d’écran du 2024-11-21 08-41-58.png](WTBF%20-%20Grehack%202024%201439b204b34d809998d0fd1b8d722646/Capture_dcran_du_2024-11-21_08-41-58.png)
+![code3.png](code3.png)
 
 When executed, this part gives us the following value on the tape :
 
@@ -36,7 +36,7 @@ The first (from the first 0 to the second) can be interpreted as ASCII code, and
 
 The second part (from the second 0 to the end) give us nothing for the moment, at least nothing readable. To understand this part, we need to understand what the second part of our program do.
 
-![image.png](WTBF%20-%20Grehack%202024%201439b204b34d809998d0fd1b8d722646/image%201.png)
+![codePart2.png](codePart2.png)
 
 This part is a little more tricky to understand, because it takes some user input to do some computation, and because the syntax of Brainfuck is very limited.
 
@@ -110,4 +110,4 @@ And we finally get the flag :
 GH{M1nd-Bl0w1ng!}
 ```
 
-If we use this flag in the program, the string that we found before (***/0\***) is print on the screen, confirming that we found the password.
+If we use this flag in the program, the string that we found before (*/0\ *) is print on the screen, confirming that we found the password.
