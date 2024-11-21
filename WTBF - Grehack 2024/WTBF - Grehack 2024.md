@@ -2,7 +2,7 @@
 
 This challenge consist of a simple file containing ascii characters, and the objective is to retrieve a password from this file
 
-![file.png](file.png)
+![file.png](images/file.png)
 
 The file seems very strange as it only contains the following symbols : “+”, “-”, “>”, “<”, “[”, “]”, “,” and “.”
 
@@ -16,11 +16,11 @@ This program is composed of two part, the first one only initialized some variab
 
 Note : Brainfuck looks a lot like a Turing Machine (it is in fact Turing-complete), with a tape, a pointer, and the possibility to increment and decrement the value contained on the tape
 
-![code1.png](code1.png)
+![code1.png](images/code1.png)
 
-![code2.png](code2.png)
+![code2.png](images/code2.png)
 
-![code3.png](code3.png)
+![code3.png](images/code3.png)
 
 When executed, this part gives us the following value on the tape :
 
@@ -36,7 +36,7 @@ The first (from the first 0 to the second) can be interpreted as ASCII code, and
 
 The second part (from the second 0 to the end) give us nothing for the moment, at least nothing readable. To understand this part, we need to understand what the second part of our program do.
 
-![codePart2.png](codePart2.png)
+![codePart2.png](images/codePart2.png)
 
 This part is a little more tricky to understand, because it takes some user input to do some computation, and because the syntax of Brainfuck is very limited.
 
