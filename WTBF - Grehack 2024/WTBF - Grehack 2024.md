@@ -110,4 +110,4 @@ And we finally get the flag :
 GH{M1nd-Bl0w1ng!}
 ```
 
-If we use this flag in the program, the string that we found before (*/0\ *) is print on the screen, confirming that we found the password.
+If we use this flag in the program, the string that we found before (*/0\\\*) is print on the screen, confirming that we found the password.
